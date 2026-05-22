@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
 
-deploy staging 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,6 +16,18 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
 
+  deploy-staging:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm install
+      - run: npm run build --if-present
+      
       - uses: azure/login@v2
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
@@ -26,16 +38,15 @@ jobs:
           package: '.'
 
   
-  deploy production
-  jobs:
-  build:
+  deploy-production:
+    needs: build
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-          
       - run: npm install
       - run: npm run build --if-present
 

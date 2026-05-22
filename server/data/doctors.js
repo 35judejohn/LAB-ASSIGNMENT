@@ -36,10 +36,17 @@ const doctors = [
   },
   { 
     id: 6,
-    name: 'Jude John Ogbonna',
+    name: 'Prof. Dr.Jude John Ogbonna',
     specialty: 'Psychiatrist',
     experience: 9,
     description: 'Mental health expert providing supportive treatment for anxiety, depression, and wellbeing.',
+  },
+  { 
+    id: 7,
+    name: 'Prof. Abuwa',
+    specialty: 'Pediatrician',
+    experience: 20,
+    description: 'Child health specialist dedicated to compassionate pediatric care for infants and teenagers.',
   },
 ];
 
