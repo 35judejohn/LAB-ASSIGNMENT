@@ -34,6 +34,13 @@ const doctors = [
     experience: 9,
     description: 'Mental health expert providing supportive treatment for anxiety, depression, and wellbeing.',
   },
+  { 
+    id: 6,
+    name: 'Jude John Ogbonna',
+    specialty: 'Psychiatrist',
+    experience: 9,
+    description: 'Mental health expert providing supportive treatment for anxiety, depression, and wellbeing.',
+  },
 ];
 
 export default doctors;
