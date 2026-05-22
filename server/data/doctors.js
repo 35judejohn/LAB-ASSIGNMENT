@@ -8,21 +8,21 @@ const doctors = [
   },
   {
     id: 2,
-    name: 'Dr. Waneami Watson',
+    name: 'Dr. Chinedu Okafor',
     specialty: 'Cardiologist',
     experience: 12,
     description: 'Experienced cardiologist specializing in heart health, blood pressure, and cardiac prevention.',
   },
   {
     id: 3,
-    name: 'Dr. Caleb Chike Chisom',
+    name: 'Dr. Fatima Yusuf',
     specialty: 'Dermatologist',
     experience: 6,
     description: 'Skin specialist with expertise in acne treatment, allergy care, and cosmetic dermatology.',
   },
   {
     id: 4,
-    name: 'Dr. Emeka Chukwuemeka',
+    name: 'Dr. Ibrahim Musa',
     specialty: 'Pediatrician',
     experience: 10,
     description: 'Child health specialist dedicated to compassionate pediatric care for infants and teenagers.',
@@ -34,19 +34,12 @@ const doctors = [
     experience: 9,
     description: 'Mental health expert providing supportive treatment for anxiety, depression, and wellbeing.',
   },
-  { 
+  {
     id: 6,
-    name: 'Prof. Dr.Jude John Ogbonna',
-    specialty: 'Psychiatrist',
-    experience: 9,
-    description: 'Mental health expert providing supportive treatment for anxiety, depression, and wellbeing.',
-  },
-  { 
-    id: 7,
-    name: 'Prof. Abuwa',
-    specialty: 'Pediatrician',
-    experience: 20,
-    description: 'Child health specialist dedicated to compassionate pediatric care for infants and teenagers.',
+    name: 'Dr. Hope Nwosu',
+    specialty: 'Neurologist',
+    experience: 11,
+    description: 'Specialized in diagnosing and treating disorders of the nervous system, including headaches and seizures.',
   },
 ];
 
