@@ -21,5 +21,5 @@ jobs:
 
       - uses: azure/webapps-deploy@v3
         with:
-          app-name: 'Medical-Shop-App'
+          app-name: 'My-medic-app'
           package: '.'
