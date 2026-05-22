@@ -8,14 +8,14 @@ const doctors = [
   },
   {
     id: 2,
-    name: 'Dr. Wanemi Watson',
+    name: 'Dr. Waneami Watson',
     specialty: 'Cardiologist',
     experience: 12,
     description: 'Experienced cardiologist specializing in heart health, blood pressure, and cardiac prevention.',
   },
   {
     id: 3,
-    name: 'Dr. Fortune Hassan',
+    name: 'Dr. Caleb Chike Chisom',
     specialty: 'Dermatologist',
     experience: 6,
     description: 'Skin specialist with expertise in acne treatment, allergy care, and cosmetic dermatology.',
