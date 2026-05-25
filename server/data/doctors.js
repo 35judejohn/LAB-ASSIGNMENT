@@ -41,6 +41,15 @@ const doctors = [
     experience: 11,
     description: 'Specialized in diagnosing and treating disorders of the nervous system, including headaches and seizures.',
   },
+  {
+    id: 7,
+    name: 'Dr. James Okonkwo',
+    specialty: 'Orthopedic Surgeon',
+    experience: 14,
+    description: 'Skilled orthopedic surgeon specializing in joint replacement, sports injuries, and spine surgery.',
+  },
 ];
 
 export default doctors;
+
+
